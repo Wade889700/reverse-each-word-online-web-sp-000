@@ -8,4 +8,5 @@ def reverse_each_word(words)
     counter += 1
     return my_array
   end
+  return my_array.join
 end
