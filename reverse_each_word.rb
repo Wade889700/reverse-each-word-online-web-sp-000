@@ -2,11 +2,11 @@ def reverse_each_word(words)
   words = words.split(" ")
   words = words.join(",")
   words = words.reverse
-  my_array = []
+  my_string = []
   words.each do |word|
     word = word.reverse
     my_array = my_array.shovel(word)
-    return my_array
+    return my_string
   end
-  return my_array.join
+  return my_array
 end
