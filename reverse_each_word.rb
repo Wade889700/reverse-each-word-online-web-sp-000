@@ -4,7 +4,6 @@ def reverse_each_word(words)
   words = words.reverse
   my_string = []
   words.each do |word|
-    word = word.reverse
     my_array = my_array.shovel(word)
     return my_string
   end
