@@ -1,5 +1,7 @@
 def reverse_each_word(words)
   words = words.split(" ")
+  words = words.join(",")
+  words = words.reverse
   my_array = []
   words.each do |word|
     word = word.reverse
