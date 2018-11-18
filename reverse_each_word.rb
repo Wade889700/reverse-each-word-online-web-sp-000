@@ -10,6 +10,6 @@ def reverse_each_word(words)
   end
   my_array = my_string.split(",")
   my_array_2 = my_array.reverse
-  My_string_2 = my_array.join(" ")
+  my_string_2 = my_array.join(" ")
   return my_string_2
 end
