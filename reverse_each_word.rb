@@ -5,7 +5,7 @@ def reverse_each_word(words)
   my_array = []
   words.each do |word|
     word = word.reverse
-    my_array = my_array.push(word)
+    my_array = my_array.shovel(word)
     return my_array
   end
   return my_array.join
