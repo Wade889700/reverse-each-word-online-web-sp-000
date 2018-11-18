@@ -6,5 +6,4 @@ def reverse_each_word(words)
     my_array.push(word)
     return my_array
   end
-
 end
