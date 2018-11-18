@@ -8,5 +8,6 @@ def reverse_each_word(words)
     my_string << word
     return my_string
   end
+  my_string.split(",")
   return my_string.reverse
 end
