@@ -4,7 +4,8 @@ def reverse_each_word(words)
   counter = 0
   words.each do |word|
     word = word.reverse
-    my_array.push(word)
+    my_array[counter] = word
+    counter += 1
     return my_array
   end
 end
